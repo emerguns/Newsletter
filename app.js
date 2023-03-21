@@ -62,8 +62,8 @@ app.post("/failure", function(req, res){
     res.redirect("/");
 });
 
-app.listen(porcess.env.PORT || 3000, function() {
-    console.log("servidor corriendo em elpuerto 3000");
+app.listen(3000, function() {
+    console.log("servidor corriendo en el puerto 3000");
 });
 
 //API key == 68d0a0953b66473df6855a0739c37a39-us8 
